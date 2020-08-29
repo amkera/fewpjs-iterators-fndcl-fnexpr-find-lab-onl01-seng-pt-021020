@@ -6,17 +6,13 @@ const record = [
 ]
 
 
-function superbowlWin(arrayOfObjects) {
-  record.find (function(win) {
-    if record[result] ===  "W" {
-      return record[year];
-    } else {
-      return undefined;
-    }
+
+
+function superbowlWin(array) {
+  array.find(function(win) {
+    if (array)
   })
 }
-
-
 
 
 
