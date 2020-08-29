@@ -6,20 +6,11 @@ const record = [
 ]
 
 
-
-
-function superbowlWin(record) {
-  record.find(function(win) {
-    if (record.result === "W") {
-      return record.year;
-    } else {
-      return undefined;
-    }
-  })
+superbowlWin = (record) => { //function that takes record as an argument 
+  let result = record.find( record => record.result === "W" )
+  return !!result ? result.year : undefined
+  //return boolean value, and if it's true, then return the year. Else return undefined 
 }
-
-
-
 
 
 
