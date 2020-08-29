@@ -7,17 +7,13 @@ const record = [
 
 
 function superbowlWin(arrayOfObjects) {
-  //use find to test each object in the array to see if result is a win 
-  record.find (function (win)  {
-    if 
+  record.find (function(win) {
+    if record[result] ===  "W" {
+      return record[year];
+    } else {
+      return undefined;
+    }
   })
-  //if there's a  win 
-    //return the year 
-  // else 
-    //return undefined 
-  //end 
-  
-  
 }
 
 
