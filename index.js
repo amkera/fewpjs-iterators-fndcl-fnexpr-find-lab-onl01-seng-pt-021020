@@ -8,9 +8,13 @@ const record = [
 
 
 
-function superbowlWin(array) {
-  array.find(function(win) {
-    if (array)
+function superbowlWin(record) {
+  record.find(function(win) {
+    if (record.result === "W") {
+      return record.year;
+    } else {
+      return undefined;
+    }
   })
 }
 
