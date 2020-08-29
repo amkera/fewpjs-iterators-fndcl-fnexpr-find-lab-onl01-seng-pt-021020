@@ -1,9 +1,24 @@
-const testVar = {}
+const record = [
+  {year: "2018", result: "L"},
+  {year: "2017", result: "W"},
+  {year: "2016", result: "N/A"}
+  //...
+]
 
-function testFunc() {
-  return "hi"
+
+function superbowlWin(arrayOfObjects) {
+  //use find to test each object in the array to see if result is a win 
+  record.find (function (win)  {
+    if 
+  })
+  //if there's a  win 
+    //return the year 
+  // else 
+    //return undefined 
+  //end 
+  
+  
 }
-
 
 
 
