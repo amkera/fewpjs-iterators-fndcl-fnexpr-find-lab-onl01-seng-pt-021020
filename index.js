@@ -10,7 +10,7 @@ function testFunc() {
 // let roommates = ["jess", "winston", "winston", "nick"];
  
 // roommates.find( function(s) { return s === "winston" })
-// //=> winston
+//=> winston
  
 // roommates.filter(function(s) { return s === "winston" })
-// //=> [winston, winston]
+//=> [winston, winston]
